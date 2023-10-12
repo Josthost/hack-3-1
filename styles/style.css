@@ -1,0 +1,38 @@
+header {
+    height: 170px;
+    background-color: #93B5C9;
+}
+
+main{
+    text-align: center;
+}
+
+div{
+    height: 250px;
+    background-color: #AB2849;
+    margin: 0 0 20px 0;
+}
+
+section {
+    height: 150px;
+    width: 80%;
+    background-color: #AB2849;
+    margin: 0 auto 20px;
+}
+
+section:nth-child(-n+4):nth-child(n+3) {
+   width: 40%;
+   display: inline-block;
+}
+
+section:nth-child(6),
+section:nth-child(7) {
+    width: 40%;
+    display: inline-block;
+ }
+
+footer {
+    height: 100px;
+    background-color: #AB2849;
+    margin-bottom: 10px;
+}
